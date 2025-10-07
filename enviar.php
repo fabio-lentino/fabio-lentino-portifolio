@@ -17,7 +17,7 @@ $email_body .= "Mensagem:\n$message";
 // Envia o e-mail
 if (mail($to, $subject, $email_body, $headers)) {
     // Redireciona o usuário para uma página de sucesso
-    header('Location: obrigado.html');
+    header('Location: index.html');
     exit;
 } else {
     // Caso de falha
