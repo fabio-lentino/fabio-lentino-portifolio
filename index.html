@@ -130,22 +130,32 @@
 <section id="contact" class="container py-5"> 
     <h2 class="text-center mb-4 display-5"> Contate-me! </h2> 
     <div class="row justify-content-center">
-        <div class="col-lg-8 col-xl-6">
-            <form action="enviar.php" class="p-4 border rounded shadow-lg bg-success-subtle **text-dark**">
-                <div class="mb-3"> 
-                    <label for="nome" class="form-label"> Nome </label> 
-                    <input id="nome" name="nome" type="text" class="form-control" required> 
+        
+        <div class="col-lg-8 col-xl-6 text-center p-4 border rounded shadow-lg bg-success-subtle text-dark">
+            
+            <p class="lead mb-4">Escolha o canal de sua preferência para iniciar uma conversa:</p>
+
+            <div class="row g-3">
+                
+                <div class="col-12 col-sm-6">
+                    <a href="mailto:seufabioemail@exemplo.com?subject=Contato%20via%20Portfólio%20Web" 
+                       class="btn btn-dark btn-lg w-100 d-flex align-items-center justify-content-center">
+                        <span class="fs-4 me-2">✉️</span> 
+                        E-mail
+                    </a>
                 </div>
-                <div class="mb-3"> 
-                    <label for="email" class="form-label"> Email </label> 
-                    <input id="email" name="email" type="email" class="form-control" required> 
+                
+                <div class="col-12 col-sm-6">
+                    <a href="https://wa.me/5541999998888?text=Olá,%20gostaria%20de%20falar%20sobre%20o%20seu%20portfólio." 
+                       target="_blank" 
+                       class="btn btn-success btn-lg w-100 d-flex align-items-center justify-content-center">
+                        <span class="fs-4 me-2">📱</span> 
+                        WhatsApp
+                    </a>
                 </div>
-                <div class="mb-3"> 
-                    <label for="mensagem" class="form-label"> Mensagem </label> 
-                    <textarea id="mensagem" name="mensagem" class="form-control" rows="4" required> </textarea> 
-                </div>
-                <button type="submit" class="btn btn-success btn-lg w-100"> Mandar mensagem</button> 
-            </form>
+            </div>
+
+            <p class="small mt-4">Você também pode me encontrar no LinkedIn e GitHub!</p>
         </div>
     </div>
 </section>
